@@ -7,13 +7,13 @@
     <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.derdan.openinassociatedapplication.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.derdan.openinassociatedapplication.services.MyProjectService"/>
-    </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.derdan.openinassociatedapplication.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
+    <actions>
+        <action id="com.github.derdan.openinassociatedapplication.OpenInAssociatedApplicationAction"
+                class="com.github.derdan.openinassociatedapplication.OpenInAssociatedApplicationAction"
+                text="Associated Application"
+                description="Open the selected file(s) in the associated application">
+            <add-to-group group-id="RevealGroup" anchor="last"/>
+            <keyboard-shortcut  first-keystroke="alt a" keymap="$default"/>
+        </action>
+    </actions>
 </idea-plugin>
