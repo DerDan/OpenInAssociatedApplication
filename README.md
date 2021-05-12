@@ -1,4 +1,4 @@
-# OpenInAssociatedApplication
+# OpenInAssociatedApplication Plugin for JetBrain IDE
 
 
 
@@ -11,11 +11,14 @@
 
 
 ## Description
-resources/META-INF/pluginIcon.svg
+
 <!-- Plugin description -->
+
 It just opens the selected file in the default program associated by the operating system.
 
-The Keyboard shortcut is <kbd>Alt-A</kbd> 
+The keyboard shortcut is <kbd>Alt-A</kbd> 
+
+File context menu <kbd>Open</kbd> > <kbd>Associated application</kbd>
 
 <!-- Plugin description end -->
 
