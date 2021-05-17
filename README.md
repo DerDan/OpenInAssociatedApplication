@@ -14,7 +14,8 @@
 
 <!-- Plugin description -->
 
-It just opens the selected file in the default program associated by the operating system.
+It opens the selected file in the standard program assigned by the operating system.
+
 
 The keyboard shortcut is <kbd>Alt-A</kbd> 
 
