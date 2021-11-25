@@ -4,7 +4,7 @@
 
 ## [Unreleased]
 
-## [1.0.0]
+## [1.0.1]
 - first public release
 
 ## [0.0.4]
