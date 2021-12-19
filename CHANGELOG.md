@@ -4,6 +4,9 @@
 
 ## [Unreleased]
 
+## [1.0.3]
+- qodana update
+
 ## [1.0.2]
 - first public release
 
