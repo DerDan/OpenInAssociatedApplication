@@ -4,8 +4,11 @@
 
 ## [Unreleased]
 
+## [1.0.3]
+- qodana update
+
 ## [1.0.2]
-- set until-build compatibility to 221.*
+- first public release
 
 ## [1.0.1]
 - first public release
