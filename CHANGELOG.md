@@ -4,6 +4,9 @@
 
 ## [Unreleased]
 
+## [1.0.2]
+- set until-build compatibility to 221.*
+
 ## [1.0.1]
 - first public release
 
