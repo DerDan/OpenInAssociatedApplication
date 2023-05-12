@@ -25,11 +25,11 @@ File context menu <kbd>Open</kbd> > <kbd>Associated application</kbd>
 
 ## Installation
 
-- Using IDE built-in plugin system:
-  
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "OpenInAssociatedApplication"</kbd> >
-  <kbd>Install Plugin</kbd>
-  
+- ~~Using IDE built-in plugin system~~ (_until now the plugin_ **is not published** _on jetbrains marketplace_):
+
+  ~~<kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "OpenInAssociatedApplication"</kbd> >
+  <kbd>Install Plugin</kbd>~~
+
 - Manually:
 
   Download the [latest release](https://github.com/DerDan/OpenInAssociatedApplication/releases/latest) and install it manually using
